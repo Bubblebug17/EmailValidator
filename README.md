@@ -4,6 +4,6 @@
 ## Requeriments:
   
   - Python 3.x
-  - Module resquest
+  - Module requests
 ## Use:
   python ValHot.py -i [Name of Input File] -o [Name of Output File]
