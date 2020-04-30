@@ -116,7 +116,7 @@ def validMailtoRequest(mail):
 	#El correo solo de puede ser "@hotmail.com","@outlook.com" y "@outlook.es" o "@gmail.com". 
 	if(not len(email)>0):
 		return False
-	if(not "hotmail.com" in email and not "outlook.com" in email and not "outlook.es" in email and not "gmail.com"):
+	if(not "hotmail.com" in email and not "outlook.com" in email and not "outlook.es" in email and not "gmail.com" in email):
 		return False
 	return True
 def validar_argumentos(args):
